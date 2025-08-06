@@ -385,3 +385,90 @@ footer a:hover {
   text-align: center;
   max-width: 1000px;
 }
+@media (max-width: 768px) {
+
+  .headnav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .headnav a {
+    font-size: 14px;
+    padding: 4px 0;
+  }
+  .headbutton {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+
+  .headnav img {
+    height: 40px;
+    margin: 10px 0;
+  }
+
+  .container {
+    padding: 20px;
+    height: auto;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+    margin: 0 20px;
+  }
+
+  .lead {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .view-button,
+  .material-button,
+  .subscribe-button {
+    width: 90%;
+  }
+
+  .search-input,
+  .subscribe-input {
+    width: 90% !important;
+  }
+
+  .book-container,
+  .benefits-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .book-card,
+  .article-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .benefits-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .benefits-text {
+    font-size: 1rem;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .article-container {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .article-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .article-content {
+    text-align: center;
+  }
+}
